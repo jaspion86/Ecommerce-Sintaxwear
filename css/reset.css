@@ -1,0 +1,112 @@
+/* Reset CSS baseado no reset do Andy Bell */
+
+/* Remove margins e paddings padrão */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Box-sizing padrão */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove estilos de lista */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Elementos de bloco herdam tamanho mínimo */
+html,
+body {
+  height: 100%;
+}
+
+/* Melhor segurança com body */
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Links herdam cores */
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/* Imagens responsivas */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* Remove estilos padrão de inputs, buttons e textareas */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+  border: none;
+  background: none;
+}
+
+/* Remove outline padrão */
+button {
+  cursor: pointer;
+}
+
+/* Remove estilos de input type reset */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* Melhora tipografia */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* Remove espaços em branco extras */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+}
+
+/* Evita layout shifts com small */
+small {
+  font-size: 0.8em;
+}
+
+/* Acessibilidade - remove animações se preferido */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

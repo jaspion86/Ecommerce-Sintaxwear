@@ -10,14 +10,15 @@
   <link rel="stylesheet" href="./css/variables.css">
   <link rel="stylesheet" href="/css/base.css">
   <link rel="stylesheet" href="/css/layout.css">
+  <link rel="stylesheet" href="./css/components/header.css">
 </head>
 
 <body>
-  <header class="site-header">
+  <header class="header">
     <!-- Logo e navegação -->
     <h1 class="logo">
       <a href="/" title="SyntaxWear - Tênis Sneakers Online">
-        <img src="./images/logo/logo.png" alt="SyntaxWear - Tênis Sneakers Online">
+        <img src="./images/logo/logo.svg" alt="SyntaxWear - Tênis Sneakers Online">
       </a>
     </h1>
 
@@ -29,7 +30,16 @@
       </ul>
     </nav>
 
-    
+    <nav class="nav-right" aria-label="Acesso rápido">
+      <ul>
+        <li><a href="#">Nossas lojas</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#" aria-label="Minha conta"><img src="./images/icons/user.svg" alt="Minha conta"></a></li>
+        <li><a href="#" aria-label="Ajuda"><img src="./images/icons/help.svg" alt="Ajuda"></a></li>
+        <li><a href="#" aria-label="Carrinho"><img src="./images/icons/bag.svg" alt="Carinho"></a></li>
+      </ul>
+    </nav>
+
   </header>
   <main class="main-content">
     <section class="hero-section">

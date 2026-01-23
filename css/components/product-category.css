@@ -58,4 +58,10 @@
     background-position: center;
 }
 
+/* @midia (max-width: 768px) {
+    .category-card {
+        width: 100%;
+    }
+} */
+
 
